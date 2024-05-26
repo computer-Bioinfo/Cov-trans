@@ -265,7 +265,7 @@ class MILP_solve():
                     return
 
                 output.write(
-                    f"{contig}\tCov-rans\ttranscript\t{path[0][0]+1}\t{path[-1][1]+1}\t.\t.\t.\ttype={type}\n")
+                    f"{contig}\tCov-rans\ttranscript\t{path[0][0]+1}\t{path[-1][1]+1}\t.\t.\t.\t{type}\n")
 
                 exon_start = path[0][0]
                 exon_end = path[0][1]
