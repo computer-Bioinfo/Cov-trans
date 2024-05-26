@@ -43,7 +43,8 @@ pandas
 
 # Example
 
-~~~ python cov-trans_main.py -f ../data/sars-cov-2.fasta -b ../data/sars2-sample.bam --calTransGTF sars-cov2_cal.gtf --noncalTransGTF sars-cov2_nonncal.gtf --Graph sars2_segmentgraph.out
+~~~
+python cov-trans_main.py -f ../data/sars-cov-2.fasta -b ../data/sars2-sample.bam --calTransGTF sars-cov2_cal.gtf --noncalTransGTF sars-cov2_nonncal.gtf --Graph sars2_segmentgraph.out
  ~~~
 
 # Feedback and bug reports
