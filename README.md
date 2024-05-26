@@ -18,6 +18,8 @@ Python 3.7
 
 Gurobi 9.5.1
 
+samtools
+
 pysam
 
 numpy
@@ -25,27 +27,23 @@ numpy
 pandas
 
 # Usage
---bam(or -b) BAM  
---fasta(or -f)
-                      [--min-base-qual MIN_BASE_QUAL]
-                      [--min-mapping-qual MIN_MAPPING_QUAL] [-w WIDTH]
-                      [--samplingFrequency SAMPLINGFREQUENCY]
-                      [--sj_threshold SJ_THRESHOLD] [-n NEDGES]
-                      [--phasing_threshold PHASING_THRESHOLD]
-                      [--greedy GREEDY] [--outputCSV OUTPUTCSV]
-                      [--outputPhasing OUTPUTPHASING] [--inputCSV INPUTCSV]
-                      [--inputPhasing INPUTPHASING]
-                      [--inputBreakpoints INPUTBREAKPOINTS]
-                      [--inputEdges INPUTEDGES] [--outputGraph OUTPUTGRAPH]
-                      [--outputDOT OUTPUTDOT]
-                      [--outputTranscripts OUTPUTTRANSCRIPTS]
-                      [--outputBreakpoints OUTPUTBREAKPOINTS]
-                      [--outputEdges OUTPUTEDGES]
-                      [--outputDecomposition OUTPUTDECOMPOSITION]
-                      [--outputMatching OUTPUTMATCHING]
-                      [--outputGTF OUTPUTGTF] [--report REPORT] [--noverbose]
-                      [--threads THREADS] [--timelimit TIMELIMIT]
-                      [--maxIter MAXITER]
+--bam(or -b) .bam  
+
+--fasta(or -f) .fasta
+
+--Graph OUTPUTTRANSCRIPTS
+                     
+--calTransGTF .gtf
+
+--noncalTransGTF .gtf
+
+--threads THREADS 
+
+# Example
+
+
+# Feedback and bug reports
+Your comments, bug reports, and suggestions are very welcomed. They will help us to further improve Cov-trans. If you have any troubles running Cov-trans, please contact us (Email:2021020692@qdu.edu.cn).
 
 
 
