@@ -326,4 +326,4 @@ class MILP_solve():
                     write_transcript_and_exons(contig, path)
                     # print("Transcript info:", transcript_info)
                     # print("Path:", path)
-        print("GTF file written successfully")
+        
