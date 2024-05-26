@@ -43,7 +43,7 @@ pandas
 
 # Example
 
-python cov-trans_main.py -f ../data/reference.fasta -b ../data/sars2-sample.bam --calTransGTF sars-cov2_cal.gtf --noncalTransGTF sars-cov2_nojncal.gtf --Graph sars2_segmentgraph.out
+python cov-trans_main.py -f ../data/sars-cov-2.fasta -b ../data/sars2-sample.bam --calTransGTF sars-cov2_cal.gtf --noncalTransGTF sars-cov2_nojncal.gtf --Graph sars2_segmentgraph.out
 
 # Feedback and bug reports
 Your comments, bug reports, and suggestions are very welcomed. They will help us to further improve Cov-trans. If you have any troubles running Cov-trans, please contact us (Email:2021020692@qdu.edu.cn).
