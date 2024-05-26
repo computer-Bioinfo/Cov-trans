@@ -39,6 +39,8 @@ pandas
 
 --threads THREADS 
 
+-h help
+
 # Example
 
 python cov-trans_main.py -f ../data/reference.fasta -b ../data/sars2-sample.bam --calTransGTF sars-cov2_cal.gtf --noncalTransGTF sars-cov2_nojncal.gtf --Graph sars2_segmentgraph.out
