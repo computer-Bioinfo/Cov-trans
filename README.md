@@ -19,7 +19,7 @@ pandas
 
 --fasta(or -f) .fasta
 
---Graph OUTPUTTRANSCRIPTS
+--Graph OUTGRAPH
                      
 --calTransGTF .gtf
 
